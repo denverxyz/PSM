@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "U-Self",
+    "slug": "uself-mobile",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/uself_icon.png",
+    "splash": {
+      "image": "./assets/images/uself_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.u-self.uselfmobile"
+    },
+    "android": {
+      "package": "com.uself.uselfmobile"
+    }
+  }
+}

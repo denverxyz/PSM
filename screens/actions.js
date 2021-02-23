@@ -1,0 +1,71 @@
+/**
+ * auth actions
+ */
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+export const LOGOUT = "LOGOUT";
+export const GET_USER = "GET_USER";
+export const USER_ERROR = "USER_ERROR";
+export const ACCOUNT_DELETED = "ACCOUNT_DELETED";
+export const UPDATE_USER_SUCCESS = "UPDATE_USER_SUCCESS";
+export const UPDATE_USER_FAIL = "UPDATE_USER_FAIL";
+
+
+export const LOADING_MYCOURSE = "LOADING_MYCOURSE";
+export const LOADING_MYBADGES = "LOADING_MYBADGES";
+export const LOADING_COURSES = "LOADING_COURSES";
+export const LOADING_UPDATE_ANSWER = "LOADING_UPDATE_ANSWER";
+export const LOADING_QUESTIONS = "LOADING_QUESTIONS";
+export const LOADING_MODULES = "LOADING_MODULES";
+export const LOADING_USER = "LOADING_USER";
+
+
+/**
+ * home actions
+ */
+export const READ_COURSES_SUCCESS = "READ_COURSES_SUCCESS";
+export const READ_COURSES_FAIL = "READ_COURSES_FAIL";
+export const RESET_COURSES = "CLEAR_COURSES";
+
+/**
+ * mycourses actions
+ */
+export const READ_MYCOURSES_SUCCESS = "READ_MYCOURSES_SUCCESS";
+export const READ_MYCOURSES_FAIL = "READ_MYCOURSES_FAIL";
+export const RESET_MYCOURSES = "CLEAR_COURSES";
+
+/**
+ * enroll actions
+ */
+ export const ENROLL_SUCCESS = "ENROLL_SUCCESS";
+ export const ENROLL_FAIL = "ENROLL_FAIL";
+ export const RESET_ENROLL = "ENROLL_RESET";
+ 
+
+ /**
+  * learning actions
+  */
+ export const MODULES_SUCCESS = "MODULES_SUCCESS";
+ export const MODULES_FAIL = "MODULES_FAIL";
+ export const QUESTIONS_SUCCESS = "QUESTIONS_SUCCESS";
+ export const QUESTIONS_FAIL = "QUESTIONS_FAIL";
+
+ export const UPDATE_ANSWER_SUCCESS = "UPDATE_ANSWER_SUCCESS";
+ export const UPDATE_ANSWER_FAIL = "UPDATE_ANSWER_FAIL";
+ 
+ export const COURSE_INFO = "COURSE_INFO";
+ export const RESET_LEARNING = "RESET_LEARNING";
+ export const UPDATE_STATUS_SUCCESS = "UPDATE_STATUS_SUCCESS";
+ export const UPDATE_STATUS_FAIL = "UPDATE_STATUS_FAIL";
+
+ /**
+  * ebadge actions
+  */
+export const WRITE_BADGE_SUCCESS = "WRITE_BADGE_SUCCESS";
+export const WRITE_BADGE_FAIL = "WRITE_BADGE_FAIL";
+export const READ_BADGES_SUCCESS = "READ_BADGES_SUCCESS";
+export const READ_BADGES_FAIL = "READ_BADGES_FAIL";
+export const RESET_BADGES = "RESET_BADGES";
+
